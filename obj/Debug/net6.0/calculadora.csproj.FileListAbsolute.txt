@@ -1,0 +1,5 @@
+C:\cosas clase\calculadora\obj\Debug\net6.0\calculadora.csproj.AssemblyReference.cache
+C:\cosas clase\calculadora\obj\Debug\net6.0\calculadora.GeneratedMSBuildEditorConfig.editorconfig
+C:\cosas clase\calculadora\obj\Debug\net6.0\calculadora.AssemblyInfoInputs.cache
+C:\cosas clase\calculadora\obj\Debug\net6.0\calculadora.AssemblyInfo.cs
+C:\cosas clase\calculadora\obj\Debug\net6.0\calculadora.csproj.CoreCompileInputs.cache

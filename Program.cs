@@ -5,18 +5,37 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
-namespace calculadora
-{
     public class Principal
     {
         public static void Main(string[] args)
         {
-            public void Menu();
+
+        
+        
+            Console.WriteLine("Bienvenido al menú de la calculadora.");
+            Console.WriteLine("-------------------------------------");
+            Console.WriteLine("Seleccione una opción");
+            Console.WriteLine("1. Sumar");
+            Console.WriteLine("2. Restar");
+            Console.WriteLine("3. Multiplicar");
+            Console.WriteLine("4. Dividir");
+            Console.WriteLine("Opción:");
+            int opcion;
+
+            try
+            {
+                opcion = Int32.Parse(Console.ReadLine());
+            }
+            catch (Exception ex)
+            {
+
+                Console.WriteLine("Debe introducir un número para seleccionar una opción.");
+            }
 
 
+
+        
 
         }
 
     }
-}
