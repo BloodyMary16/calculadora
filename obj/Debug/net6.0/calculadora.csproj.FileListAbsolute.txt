@@ -11,3 +11,13 @@ C:\Desarrollo de aplicaciones web\calculadora\obj\Debug\net6.0\calculadora.Assem
 C:\Desarrollo de aplicaciones web\calculadora\obj\Debug\net6.0\calculadora.AssemblyInfo.cs
 C:\Desarrollo de aplicaciones web\calculadora\obj\Debug\net6.0\calculadora.csproj.CoreCompileInputs.cache
 >>>>>>> 09fd05f1c632b2d4ccd2be2d37f34e01132f38c3
+C:\cosas clase\calculadora\bin\Debug\net6.0\calculadora.exe
+C:\cosas clase\calculadora\bin\Debug\net6.0\calculadora.deps.json
+C:\cosas clase\calculadora\bin\Debug\net6.0\calculadora.runtimeconfig.json
+C:\cosas clase\calculadora\bin\Debug\net6.0\calculadora.dll
+C:\cosas clase\calculadora\bin\Debug\net6.0\ref\calculadora.dll
+C:\cosas clase\calculadora\bin\Debug\net6.0\calculadora.pdb
+C:\cosas clase\calculadora\obj\Debug\net6.0\calculadora.dll
+C:\cosas clase\calculadora\obj\Debug\net6.0\ref\calculadora.dll
+C:\cosas clase\calculadora\obj\Debug\net6.0\calculadora.pdb
+C:\cosas clase\calculadora\obj\Debug\net6.0\calculadora.genruntimeconfig.cache

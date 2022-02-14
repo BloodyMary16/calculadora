@@ -9,14 +9,14 @@ namespace calculadora
             int num1;
             int num2;
             int result;
-            Console.WriteLine("Introduzca un número: ");
+            Console.WriteLine("Introduzca un nï¿½mero: ");
             num1 = Int32.Parse(Console.ReadLine());
-            Console.WriteLine("Introduzca otro número para proceder con la SUMA: ");
+            Console.WriteLine("Introduzca otro nï¿½mero para proceder con la SUMA: ");
             num2 = Int32.Parse(Console.ReadLine());
             result = num1 + num2;
             Console.WriteLine("El resultado de " + num1 + "+ " + num2 + "es: " + result);
             Console.WriteLine("");
-            Console.WriteLine("Muchas gracias por utilizar nuestra aplicación, \nesperamos volverte a ver muy pronto.");
+            Console.WriteLine("Muchas gracias por utilizar nuestra aplicaciï¿½n, \nesperamos volverte a ver muy pronto.");
             Console.ReadLine();
             Environment.Exit(0);
         }
@@ -25,47 +25,47 @@ namespace calculadora
             int num1;
             int num2;
             int result;
-            Console.WriteLine("Introduzca un número: ");
+            Console.WriteLine("Introduzca un nï¿½mero: ");
             num1 = Int32.Parse(Console.ReadLine());
-            Console.WriteLine("Introduzca otro número para proceder con la RESTA: ");
+            Console.WriteLine("Introduzca otro nï¿½mero para proceder con la RESTA: ");
             num2 = Int32.Parse(Console.ReadLine());
             result = num1 - num2;
             Console.WriteLine("El resultado de " + num1 + "- " + num2 + "es: " + result);
             Console.WriteLine("");
-            Console.WriteLine("Muchas gracias por utilizar nuestra aplicación, \nesperamos volverte a ver muy pronto.");
+            Console.WriteLine("Muchas gracias por utilizar nuestra aplicaciï¿½n, \nesperamos volverte a ver muy pronto.");
             Console.ReadLine();
             Environment.Exit(0);
 
         }
-        public void Multiplicación()
+        public void Multiplicacion()
         {
             int num1;
             int num2;
             int result;
-            Console.WriteLine("Introduzca un número: ");
+            Console.WriteLine("Introduzca un nï¿½mero: ");
             num1 = Int32.Parse(Console.ReadLine());
-            Console.WriteLine("Introduzca otro número para proceder con la MULTIPLICACIÓN: ");
+            Console.WriteLine("Introduzca otro nï¿½mero para proceder con la MULTIPLICACIï¿½N: ");
             num2 = Int32.Parse(Console.ReadLine());
             result = num1 * num2;
             Console.WriteLine("El resultado de " + num1 + "x " + num2 + "es: " + result);
             Console.WriteLine("");
-            Console.WriteLine("Muchas gracias por utilizar nuestra aplicación, \nesperamos volverte a ver muy pronto.");
+            Console.WriteLine("Muchas gracias por utilizar nuestra aplicaciï¿½n, \nesperamos volverte a ver muy pronto.");
             Console.ReadLine();
             Environment.Exit(0);
         }
-        public void División()
+        public void Division()
         {
             int num1;
             int num2;
             int result;
-            Console.WriteLine("Introduzca un número: ");
+            Console.WriteLine("Introduzca un nï¿½mero: ");
             num1 = Int32.Parse(Console.ReadLine());
-            Console.WriteLine("Introduzca otro número para proceder con la DIVISIÓN: ");
+            Console.WriteLine("Introduzca otro nï¿½mero para proceder con la DIVISIï¿½N: ");
             num2 = Int32.Parse(Console.ReadLine());
             result = num1 / num2;
             Console.WriteLine("El resultado de " + num1 + "+ " + num2 + "es: " + result);
             Console.WriteLine("");
-            Console.WriteLine("Muchas gracias por utilizar nuestra aplicación, \nesperamos volverte a ver muy pronto.");
+            Console.WriteLine("Muchas gracias por utilizar nuestra aplicaciï¿½n, \nesperamos volverte a ver muy pronto.");
             Console.ReadLine();
             Environment.Exit(0);
 
