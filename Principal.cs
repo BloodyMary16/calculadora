@@ -10,12 +10,10 @@ using System.Threading.Tasks;
     
     public static void Main (string [] args)
     {
-
+       
         int opcion= 0;
         
-
-        
-        
+          
             Console.WriteLine("Bienvenido al menú de la calculadora.");
             Console.WriteLine("-------------------------------------");
             Console.WriteLine("Seleccione una opción");
@@ -26,27 +24,20 @@ using System.Threading.Tasks;
             Console.WriteLine("5. Salir");
             Console.WriteLine("Opción:");
             opcion = Int32.Parse(Console.ReadLine());
-            try
-            {
-                opcion = Int32.Parse(Console.ReadLine());
-            }
-            catch (Exception)
-            {
-
-                Console.WriteLine("Debe introducir un número para seleccionar una opción.");
-                
-            }
+            
          switch (opcion)
         {
             
-            case 1:
-                Calculadora calculadora = new Calculadora();
+            case 1:                               
+                Console.WriteLine("Introduzca un numero: ");
+               int num1 = Int32.Parse (Console.ReadLine());
+                Console.WriteLine("Introduzca otro número:");
+               int num2 = Int32.Parse (Console.ReadLine());
+                Console.WriteLine("El resultado de la suma es");
                 Calculadora.Suma();
-                Console.WriteLine("Introduzca un par de números y verá a continuación la suma de ambos");
-                Console.WriteLine("El resultado es:" + result);
                 break;
-            case 2:
-                Console.WriteLine();
+            
+                
 
 
         }
