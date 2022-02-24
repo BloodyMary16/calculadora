@@ -1,5 +1,4 @@
-﻿//Método sumar, restar, multiplicar y dividir. El resultado lo va a escribir por consola.
-//en program.cs hacer un menú. Escribir en la consola: introducir una opción. Repetir las opciones hasta que el usuario pulse "salir"
+﻿
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,6 +11,8 @@ using System.Threading.Tasks;
     {
 
         int opcion;
+
+        Console.WriteLine("Hola");
 
         do
         {
@@ -38,6 +39,8 @@ using System.Threading.Tasks;
         }
         while (opcion != 5);
         
+        if (opcion == 5)
+        { Environment.ExitCode = 0; }
 
 
 
@@ -47,3 +50,6 @@ using System.Threading.Tasks;
    
     
 }
+
+//Método sumar, restar, multiplicar y dividir. El resultado lo va a escribir por consola.
+//en program.cs hacer un menú. Escribir en la consola: introducir una opción. Repetir las opciones hasta que el usuario pulse "salir"
