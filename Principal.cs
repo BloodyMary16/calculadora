@@ -11,7 +11,7 @@ using System.Threading.Tasks;
     public static void Main (string [] args)
     {
 
-        int opcion;
+        int opcion= 0;
         
 
         
@@ -30,12 +30,27 @@ using System.Threading.Tasks;
             {
                 opcion = Int32.Parse(Console.ReadLine());
             }
-            catch (Exception ex)
+            catch (Exception)
             {
 
                 Console.WriteLine("Debe introducir un número para seleccionar una opción.");
                 
             }
+         switch (opcion)
+        {
+            
+            case 1:
+                Calculadora calculadora = new Calculadora();
+                Calculadora.Suma();
+                Console.WriteLine("Introduzca un par de números y verá a continuación la suma de ambos");
+                Console.WriteLine("El resultado es:" + result);
+                break;
+            case 2:
+                Console.WriteLine();
+
+
+        }
+
 
         }
 
