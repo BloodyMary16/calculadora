@@ -26,25 +26,20 @@ using System.Threading.Tasks;
             Console.WriteLine("5. Salir");
             Console.WriteLine("Opción:");
             opcion = Int32.Parse(Console.ReadLine());
-           
-        switch (opcion)
-        {
-            case 1:
-                int numero1;
-                int numero2;
-                Console.WriteLine("Introduzca un número: ");
-                numero1 = (Int32.Parse(Console.ReadLine()));
-                Console.WriteLine("Introduzca otro número: ");
-                numero2 = (Int32.Parse(Console.ReadLine()));
-                Calculadora.Suma();
-                break;
-           
+            try
+            {
+                opcion = Int32.Parse(Console.ReadLine());
+            }
+            catch (Exception ex)
+            {
+
+                Console.WriteLine("Debe introducir un número para seleccionar una opción.");
+                
+            }
 
         }
 
-        }
 
-       
         
 
 
