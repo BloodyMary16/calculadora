@@ -4,39 +4,33 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-public static class Calculadora
+public class Calculadora
 {
 
-
-    public static void Suma(int num1, int num2)
+    public decimal Suma(decimal num1, decimal num2)
     {
-        int result;
+        decimal result;
         result = num1 + num2;
         Console.Write("El resultado es: " + result);
-
+        return result;
     }
-
-    public static void Resta(int num1, int num2)
+    public void Resta(decimal num1, decimal num2)
     {
-        int result;
+        decimal result;
         result = num1 - num2;
         Console.WriteLine("El resultado es: " + result);
-
     }
-
-    public static void Multiplicación(int num1, int num2)
+    public void Multiplicación(decimal num1, decimal num2)
     {
-        int result;
+        decimal result;
         result = num1 * num2;
         Console.WriteLine("El resultado es: " + result);
-
     }
-    public static void Division(int num1, int num2)
+    public void Division(decimal num1, decimal num2)
     {
-        int result;
+        decimal result;
         result = num1 / num2;
         Console.WriteLine("El resultado es: " + result);
-
     }
 }
 
