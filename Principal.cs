@@ -1,69 +1,45 @@
-﻿
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-  public class Principal
+﻿using System;
+
+public class Menu
 {
-    
-    public static void Main (string [] args)
+
+
+    public static void Main(string[] args)
     {
+        int num1 = 0;
+        int num2 = 0;
+        int opcion = 0;
+        Console.WriteLine("Introduzca un número:");
+        num1 = Int32.Parse(Console.ReadLine());
+        Console.WriteLine("Introduzca otro número:");
+        num2 = Int32.Parse(Console.ReadLine());
+        Console.WriteLine("Seleccione la operación que desea realizar: ");
+        Console.WriteLine("º-º-º-º-º-º-º-º-º-º-º-º-º-º-º-º-º-º-º-º-º-º-º-º");
+        Console.WriteLine("Opción 1: Sumar");
+        Console.WriteLine("Opción 2: Restar");
+        Console.WriteLine("Opción 3: Multiplicar");
+        Console.WriteLine("Opción 4: Dividir");
+        opcion = Int32.Parse(Console.ReadLine());
 
-        int opcion;
-        
-
-<<<<<<< HEAD:Program.cs
-        Console.WriteLine("Hola");
-
-        do
+        switch (opcion)
         {
-=======
-        
-        
->>>>>>> origin/dev:Principal.cs
-            Console.WriteLine("Bienvenido al menú de la calculadora.");
-            Console.WriteLine("-------------------------------------");
-            Console.WriteLine("Seleccione una opción");
-            Console.WriteLine("1. Sumar");
-            Console.WriteLine("2. Restar");
-            Console.WriteLine("3. Multiplicar");
-            Console.WriteLine("4. Dividir");
-            Console.WriteLine("5. Salir");
-            Console.WriteLine("Opción:");
-            opcion = Int32.Parse(Console.ReadLine());
-            try
-            {
-                opcion = Int32.Parse(Console.ReadLine());
-            }
-            catch (Exception ex)
-            {
-
-                Console.WriteLine("Debe introducir un número para seleccionar una opción.");
-                
-            }
-
+            case 1:
+                Calculadora.Suma(num1, num2);
+                break;
+            case 2:
+                Calculadora.Resta(num1, num2);
+                break;
+            case 3:
+                Calculadora.Multiplicación(num1, num2);
+                break;
+            case 4:
+                Calculadora.Division(num1, num2);
+                break;
+            default:
+                Console.WriteLine("Debe introducir un valor numérico válido.");
+                break;
         }
-<<<<<<< HEAD:Program.cs
-        while (opcion != 5);
-        
-        if (opcion == 5)
-        { Environment.ExitCode = 0; }
-
-=======
->>>>>>> origin/dev:Principal.cs
-
-
-        
-
-
     }
-   
-    
-<<<<<<< HEAD:Program.cs
 }
 
-//Método sumar, restar, multiplicar y dividir. El resultado lo va a escribir por consola.
-//en program.cs hacer un menú. Escribir en la consola: introducir una opción. Repetir las opciones hasta que el usuario pulse "salir"
-=======
->>>>>>> origin/dev:Principal.cs
+
