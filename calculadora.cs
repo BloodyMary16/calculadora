@@ -11,26 +11,29 @@ public class Calculadora
     {
         decimal result;
         result = num1 + num2;
-        Console.Write("El resultado es: " + result);
+        Console.Write("\nEl resultado es: " + result);
         return result;
     }
-    public void Resta(decimal num1, decimal num2)
+    public decimal Resta(decimal num1, decimal num2)
     {
         decimal result;
         result = num1 - num2;
-        Console.WriteLine("El resultado es: " + result);
+        Console.WriteLine("\nEl resultado es: " + result);
+        return result;
     }
-    public void Multiplicacion(decimal num1, decimal num2)
+    public decimal Multiplicacion(decimal num1, decimal num2)
     {
         decimal result;
         result = num1 * num2;
+        Console.WriteLine("\nEl resultado es: " + result);
+        return result;
     }
-   
-
-    
-
-
- }
-
-
+    public decimal Division(decimal num1, decimal num2)
+    {
+        decimal result;
+        result = num1 / num2;
+        Console.WriteLine("\nEl resultado es: " + result);
+        return result;
+    }
+}
 

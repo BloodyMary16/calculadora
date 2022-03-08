@@ -19,6 +19,7 @@ public class Menu
         Console.WriteLine("Opción 3: Multiplicar");
         Console.WriteLine("Opción 4: Dividir");
         opcion = Int32.Parse(Console.ReadLine());
+        Console.WriteLine();
         switch (opcion)
         {
             case 1:
