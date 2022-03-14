@@ -14,10 +14,13 @@ public class Menu
         num2 = decimal.Parse(Console.ReadLine());
         Console.WriteLine("Seleccione la operación que desea realizar: ");
         Console.WriteLine("º-º-º-º-º-º-º-º-º-º-º-º-º-º-º-º-º-º-º-º-º-º-º-º");
+        Console.WriteLine("Opción -1: SALIR");
         Console.WriteLine("Opción 1: Sumar");
         Console.WriteLine("Opción 2: Restar");
         Console.WriteLine("Opción 3: Multiplicar");
         Console.WriteLine("Opción 4: Dividir");
+        Console.WriteLine("Opción 5: Potencias");
+        Console.WriteLine("Opción 6: Historial de operaciones");
         opcion = Int32.Parse(Console.ReadLine());
         Console.WriteLine();
         switch (opcion)
