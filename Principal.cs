@@ -4,7 +4,7 @@ public class Menu
 {
     public static void Main(string[] args)
     {
-        Calculadora calculadora = new ();
+        Calculadora calculadora = new();
         decimal num1 = 0;
         decimal num2 = 0;
         decimal opcion = 0;
@@ -20,26 +20,29 @@ public class Menu
         Console.WriteLine("Opción 4: Dividir");
         opcion = Int32.Parse(Console.ReadLine());
         Console.WriteLine();
-        switch (opcion)
+        while (opcion != 0)
         {
-            case 1:
-                
-                calculadora.Suma(num1, num2);
-                break;
-            case 2:
-                calculadora.Resta(num1, num2);
-                break;
-            case 3:
-                calculadora.Multiplicacion(num1, num2);
-                break;
-            case 4:
-                calculadora.Division(num1, num2);
-                break;
-            default:
-                Console.WriteLine("Debe introducir un valor numérico válido.");
-                break;
+            switch (opcion)
+            {
+                case 1:
+                    calculadora.Suma(num1, num2);
+                    break;
+                case 2:
+                    calculadora.Resta(num1, num2);
+                    break;
+                case 3:
+                    calculadora.Multiplicacion(num1, num2);
+                    break;
+                case 4:
+                    calculadora.Division(num1, num2);
+                    break;
+                default:
+                    Console.WriteLine("Debe introducir un valor numérico válido.");
+                    break;
+            }
         }
     }
+    public enum opciones { }
 }
 
 
