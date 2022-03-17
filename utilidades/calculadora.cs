@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+namespace utilidadescalculadora{
+
 public class Calculadora
 {
 
@@ -36,4 +38,6 @@ public class Calculadora
         return result;
     }
 }
+}
+
 

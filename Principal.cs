@@ -1,6 +1,8 @@
 ﻿using System;
+using utilidadescalculadora;
+namespace CalculadoraSuprema{
 
-public class Menu
+    public class Menu
 {
     public static void Main(string[] args)
     {
@@ -43,3 +45,6 @@ public class Menu
 }
 
 
+
+
+}
