@@ -10,10 +10,6 @@ namespace CalculadoraSuprema{
         decimal num1 = 0;
         decimal num2 = 0;
         decimal opcion = 0;
-        Console.WriteLine("Introduzca un número:");
-        num1 = decimal.Parse(Console.ReadLine());
-        Console.WriteLine("Introduzca otro número:");
-        num2 = decimal.Parse(Console.ReadLine());
         Console.WriteLine("Seleccione la operación que desea realizar: ");
         Console.WriteLine("º-º-º-º-º-º-º-º-º-º-º-º-º-º-º-º-º-º-º-º-º-º-º-º");
         Console.WriteLine("Opción 1: Sumar");
@@ -21,6 +17,10 @@ namespace CalculadoraSuprema{
         Console.WriteLine("Opción 3: Multiplicar");
         Console.WriteLine("Opción 4: Dividir");
         opcion = Int32.Parse(Console.ReadLine());
+        Console.WriteLine("Introduzca un número:");
+        num1 = decimal.Parse(Console.ReadLine());
+        Console.WriteLine("Introduzca otro número:");
+        num2 = decimal.Parse(Console.ReadLine());
         Console.WriteLine();
         switch (opcion)
         {
